@@ -11,4 +11,18 @@ Este arquivo documenta as principais medidas DAX utilizadas no Power BI, que ser
 Mede o volume total de vendas. É a base para todos os demais cálculos de rentabilidade.
 
 ```dax
+
 faturamento = SUM(ft_vendas_supermercado[total_venda])
+
+### 1.2 Total de Transações (Base de Contagem)
+
+Mede o número de notas fiscais (transações) únicas. Essencial para calcular métricas por nota/cesta.
+
+total_transacoes = DISTINCTCOUNT(ft_vendas_supermercado[id_nota])
+
+### 1.3 Ticket Médio (TM)
+
+Métrica central do projeto. Representa o valor médio gasto por cliente em uma única transação, sendo o principal foco da otimização.
+
+
+ticket_medio = DIVIDE([faturamento],[total_transacoes])
