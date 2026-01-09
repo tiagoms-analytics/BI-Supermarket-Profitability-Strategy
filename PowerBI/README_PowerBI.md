@@ -1,86 +1,78 @@
-# 🧠 BI Supermarket Profitability Strategy — Otimização de Rentabilidade e Ticket Médio
+# 📊 Dashboard Power BI — Supermarket Profitability Strategy
 
-Este repositório apresenta um projeto de **Business Intelligence (BI)** desenvolvido com **Power BI e SQL**, cujo objetivo é **identificar os principais fatores de rentabilidade em uma rede de supermercados**, otimizando o **Ticket Médio (TM)** e a **Eficiência Operacional** entre filiais.
+Este dashboard foi desenvolvido com foco em **análise de desempenho comercial, comportamento do cliente e rentabilidade**, utilizando dados de vendas de um supermercado no primeiro trimestre de 2019.
 
-Cada etapa foi construída com foco em **estratégia de negócio**, **métricas DAX robustas** e **análise de comportamento do consumidor**.
-
----
-
-## 📌 O que você vai encontrar aqui
-
-Cada pasta ou arquivo representa uma etapa do projeto, incluindo:
-
-- 📊 **Dashboard Power BI** — Painel interativo com insights de Faturamento, Ticket Médio e Fidelização  
-- 🧮 **Scripts DAX e SQL** — Medidas e consultas criadas para cálculos de rentabilidade, ticket médio e segmentação de clientes   
-- 📁 **Bases de Dados (.csv)** — Dataset original (em inglês) e dataset final limpo (em português)  
-- 📘 **Documentação BI** — Contexto do projeto, metodologia, insights e próximos passos  
+O objetivo é demonstrar habilidades em **Power BI, modelagem analítica e storytelling executivo**, com foco em tomada de decisão.
 
 ---
 
-## 🧩 Contexto e Desafio de Negócio
+## 🎯 Objetivos Analíticos
 
-O projeto busca responder à seguinte pergunta executiva:
-
-> **“Quais fatores (Filial, Gênero, Pagamento e Produtos) mais influenciam o desempenho do Ticket Médio e da Rentabilidade?”**
-
-O desafio surgiu da observação de que as **Filiais A e B** apresentavam desempenho inferior, mesmo com volume de vendas elevado.  
-A análise revelou oportunidades ligadas à **fidelização**, **método de pagamento** e **segmentação por gênero**.
+- Avaliar o desempenho financeiro por **filial**
+- Analisar **Ticket Médio**, **volume de transações** e **faturamento**
+- Investigar o impacto de **gênero**, **tipo de cliente (membro vs normal)** e **método de pagamento**
+- Realizar um **deep dive estratégico na Filial C**, identificando fatores de maior rentabilidade
 
 ---
 
-## 📈 Principais Insights e Ações Estratégicas
+## 🧩 Estrutura do Dashboard
 
-### 🏪 Filial C — Benchmarking Operacional
-- **Insight:** A Filial C possui o maior Ticket Médio (TM) e melhor eficiência geral.  
-- **Ação:** Replicar o modelo operacional e de upsell da Filial C nas demais.
-
----
-
-### 🙋‍♂️ Gênero e Fidelidade — Público Masculino Subaproveitado
-- **Insight:** Clientes femininas dominam faturamento e engajamento de membros.  
-- **Ação:** Criar campanhas e incentivos de fidelidade voltados ao público masculino.
+### 🔹 Página 1 — Visão Geral Executiva
+- KPIs principais:
+  - Faturamento Total
+  - Ticket Médio
+  - Total de Transações
+  - % de Clientes Membros
+- Evolução temporal de faturamento e transações (Q1 2019)
 
 ---
 
-### 💳 Pagamentos — Estratégia Financeira
-- **Insight:** Pagamentos via **crédito** e **cash** apresentam maior TM.  
-- **Ação:** Incentivar o uso de crédito parcelado e carteiras digitais com vantagens exclusivas.
+### 🔹 Página 2 — Perfil do Cliente e Pagamentos
+- Faturamento por gênero e método de pagamento
+- Ticket Médio por método de pagamento
+- Contribuição de lucro bruto por linha de produto
+- Comparação de desempenho entre filiais (A, B e C)
 
 ---
 
-## 🎯 Resultados Esperados (3–6 meses)
-
-| Indicador | Meta |
-|------------|------|
-| Ticket Médio (TM) | +8% a +12% nas Filiais A e B |
-| Gasto per capita masculino | +10% após campanhas segmentadas |
-| Adesão ao Programa de Membros | +15% |
-| Uso de Pagamentos de Maior TM | +20% (Crédito e Cash) |
+### 🔹 Página 3 — Desempenho de Produtos por Filial
+- Faturamento por linha de produto e filial
+- Participação dos membros na receita da Filial C por produto
+- Identificação das categorias com maior potencial de replicação nas filiais A e B
 
 ---
 
-## 🧠 Próximos Passos de BI
-
-- 📉 **Churn Prediction:** modelo de previsão de abandono do programa de fidelidade  
-- 🛒 **Basket Analysis:** identificar produtos frequentemente comprados juntos  
-- 🧩 **Benchmark Intelligence:** comparar eficiência entre filiais ao longo do tempo  
-
----
-
-## ⚙️ Estrutura do Repositório
-
+### 🔹 Página 4 — Análise Estratégica da Filial C
+- Volume de transações femininas por método de pagamento
+- Ticket Médio por método de pagamento (Filial C)
+- Faturamento feminino de clientes membros por linha de produto
+- Faturamento de membros por gênero e método de pagamento
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+## 🎨 Padrão Visual
 
-- **Power BI** (modelagem, DAX e visualização)
-- **SQL** (ETL, consultas de negócio)
-- **Excel** (validação de dados)
-- **DAX & Métricas customizadas**
-- **Storytelling com dados**
+- **Verde**: Faturamento / Receita
+- **Azul**: Volume e quantidade
+- **Laranja**: Ticket Médio
+- **Verde escuro**: Destaques estratégicos (insights-chave)
 
 ---
+
+## 🧠 Principais Insights
+
+- A Filial C apresenta maior eficiência operacional e Ticket Médio superior
+- O público feminino membro é o principal driver de rentabilidade
+- Pagamentos via crédito geram maior faturamento, apesar do menor volume
+- Três categorias concentram grande parte da receita da Filial C
+
+---
+
+## ⚠️ Observações
+
+- O dataset contempla apenas o **primeiro trimestre de 2019**
+- Análises temporais refletem essa limitação
+
 
 
 ## ⚖️ Licença / Aviso Legal
@@ -93,7 +85,6 @@ Você é livre para usar, modificar e compartilhar os arquivos, desde que manten
 ## 🤝 Conecte-se comigo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tiago%20Magalhães%20Santos-blue?logo=linkedin)](https://www.linkedin.com/in/tiago-magalh%C3%A3es-santos-0b6ab0b6/)  
-[![Kaggle](https://img.shields.io/badge/Kaggle-tiagomgsanalytics-20BEFF?logo=kaggle)](https://www.kaggle.com/tiagomgsanalytics)
 
 ---
 
