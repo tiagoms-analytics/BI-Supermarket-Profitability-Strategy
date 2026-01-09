@@ -8,7 +8,11 @@ O foco é demonstrar como **Business Intelligence** pode apoiar decisões estrat
 - Métodos de pagamento
 - Performance por filial e linha de produto
 
----
+***
+📄 **Relatório Executivo Completo (PDF):**
+👉 [Acessar Relatório Executivo](./Relatorio_Executivo.pdf)
+
+***
 
 ## 🧠 Problema de Negócio
 
@@ -61,3 +65,13 @@ O projeto foi estruturado em quatro camadas:
 ## ⚠️ Observação
 
 O dataset contempla apenas o primeiro trimestre de 2019, o que limita análises sazonais de longo prazo.
+
+---
+
+![Visão Geral — KPIs Executivos](https://github.com/tiagoms-analytics/BI-Supermarket-Profitability-Strategy/blob/main/PowerBI/imagens/Vis%C3%A3o%20Geral.png)
+
+---
+
+## 🤝 Conecte-se comigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tiago%20Magalhães%20Santos-blue?logo=linkedin)](https://www.linkedin.com/in/tiago-magalh%C3%A3es-santos-0b6ab0b6/)
