@@ -1,8 +1,4 @@
 
----
-
-
-```md
 # 🗄️ Consultas SQL — Supermarket Profitability Strategy
 
 Este diretório contém consultas SQL desenvolvidas para documentar análises específicas do projeto e demonstrar domínio de SQL analítico.
