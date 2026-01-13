@@ -7,6 +7,10 @@ O objetivo é identificar fatores que influenciam o Ticket Médio, a eficiência
 
 ---
 
+**Estes dados são baseados no ["Supermarket Sales Dataset"](https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales) disponível publicamente no Kaggle.**
+
+---
+
 ## 📌 Conteúdo do Projeto
 
 Cada pasta ou arquivo representa uma etapa do projeto, incluindo:
